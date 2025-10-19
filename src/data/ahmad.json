@@ -1,0 +1,15 @@
+{
+    "name": "Ahmad Store",
+    "description": "متجر إلكتروني متخصص في الإلكترونيات.",
+    "owner": "حسن الأفندي",
+    "phone": "+966500000000",
+    "email": "contact@ahmadstore.com",
+    "address": "الرياض، السعودية",
+    "social": {
+      "facebook": "https://facebook.com/ahmadstore",
+      "instagram": "https://instagram.com/furnitureshop",
+      "linkedin": "https://linkedin.com/company/furnitureshop"
+    },
+    "gallery": []
+  }
+  
