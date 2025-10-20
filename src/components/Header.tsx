@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -25,7 +25,7 @@ const Header = () => {
         {/* أيقونات شبكات اجتماعية */}
         <div className="flex space-x-3">
           <a href="#" className="text-gray-600 hover:text-blue-600 transition"><FaFacebook /></a>
-          <a href="#" className="text-gray-600 hover:text-blue-400 transition"><FaTwitter /></a>
+          <a href="https://www.instagram.com/cardly2026?igsh=MTNseXZ5N293OG5rMw==" className="text-gray-600 hover:text-blue-400 transition"><FaInstagram /></a>
           <a href="#" className="text-gray-600 hover:text-blue-700 transition"><FaLinkedin /></a>
         </div>
       </div>

@@ -9,35 +9,35 @@
           "name": "سرير خشبي فاخر",
           "price": 2500,
           "description": "سرير من الخشب الطبيعي بتصميم أنيق ومتين.",
-          "image": "/images/bedroom1.jpeg"
+          "image": "/images/bedroom1.jpg"
         },
         {
           "id": 2,
           "name": "دولاب ملابس كبير",
           "price": 3200,
           "description": "دولاب خشبي بستة أبواب، مساحة تخزين واسعة وتصميم عصري.",
-          "image": "/images/bedroom2.jpeg"
+          "image": "/images/bedroom2.jpg"
         },
         {
           "id": 3,
           "name": "تسريحة مرآة بإضاءة LED",
           "price": 1800,
           "description": "تسريحة مع مرآة وإضاءة مدمجة تضيف لمسة فخامة لغرفتك.",
-          "image": "/images/bedroom3.jpeg"
+          "image": "/images/bedroom3.jpg"
         },
         {
           "id": 4,
           "name": "كومودينو جانبي",
           "price": 600,
           "description": "طاولة جانبية صغيرة تناسب جميع أنماط غرف النوم.",
-          "image": "/images/bedroom4.jpeg"
+          "image": "/images/bedroom4.jpg"
         },
         {
           "id": 5,
           "name": "سرير أطفال خشبي",
           "price": 1500,
           "description": "سرير خشبي آمن للأطفال مع تصميم جذاب ومتين.",
-          "image": "/images/bedroom5.jpeg"
+          "image": "/images/bedroom5.jpg"
         },
         {
           "id": 6,
@@ -57,14 +57,14 @@
           "name": "باب خشب متين",
           "price": 900,
           "description": "باب خشبي مقاوم للماء بتصميم كلاسيكي.",
-          "image": "/images/door1.jpeg"
+          "image": "/images/door1.jpg"
         },
         {
           "id": 2,
           "name": "باب زجاجي بإطار خشب",
           "price": 1200,
           "description": "باب زجاجي عصري يضفي لمسة فخامة للمنزل.",
-          "image": "/images/door3.jpeg"
+          "image": "/images/door3.jpg"
         },
         {
           "id": 3,
@@ -78,7 +78,7 @@
           "name": "باب خارجي فاخر",
           "price": 2500,
           "description": "باب رئيسي ثقيل ومزخرف للحماية والمظهر الفاخر.",
-          "image": "/images/door2.jpeg"
+          "image": "/images/door2.jpg"
         },
         {
           "id": 5,
@@ -98,7 +98,7 @@
           "name": "مطبخ خشب كلاسيكي",
           "price": 4500,
           "description": "مطبخ خشبي متين بتصميم تقليدي وطلاء مقاوم للماء.",
-          "image": "/images/kitchen1.jpeg"
+          "image": "/images/kitchen1.jpg"
         },
         {
           "id": 2,
@@ -112,7 +112,7 @@
           "name": "خزائن مطبخ علوية وسفلية",
           "price": 3900,
           "description": "خزائن عملية بلمسة خشب طبيعية ومقابض أنيقة.",
-          "image": "/images/kitchen3.jpeg"
+          "image": "/images/kitchen3.jpg"
         },
         {
           "id": 4,
@@ -126,7 +126,7 @@
           "name": "مطبخ مفتوح بتصميم حديث",
           "price": 7500,
           "description": "مطبخ أنيق مفتوح على غرفة المعيشة بتصميم أوروبي.",
-          "image": "/images/kitchen5.jpeg"
+          "image": "/images/kitchen5.jpg"
         }
       ]
     },
@@ -146,7 +146,7 @@
           "name": "طاولة سفرة خشبية",
           "price": 2700,
           "description": "طاولة طعام لستة أشخاص مع تشطيب لامع وأرجل قوية.",
-          "image": "/images/furniture4.jpeg"
+          "image": "/images/furniture4.jpg"
         },
         {
           "id": 3,
@@ -160,14 +160,14 @@
           "name": "طاولة قهوة مودرن",
           "price": 950,
           "description": "طاولة قهوة بتصميم بسيط وعصري تناسب جميع الديكورات.",
-          "image": "/images/furniture2.jpeg"
+          "image": "/images/furniture2.jpg"
         },
         {
           "id": 5,
-          "name": "مكتبة كتب خشبية",
+          "name": "طاولة مع كراسي خشبية",
           "price": 2100,
-          "description": "مكتبة أنيقة متعددة الأرفف بتصميم هندسي جميل.",
-          "image": "/images/furniture6.jpeg"
+          "description": "طاولة أنيقة مع كراسي بتصميم هندسي جميل.",
+          "image": "/images/furniture6.jpg"
         },
         {
           "id": 6,
@@ -187,21 +187,21 @@
           "name": "نافذة خشب تقليدية",
           "price": 700,
           "description": "نافذة خشبية مقاومة للعوامل الجوية.",
-          "image": "/images/window1.jpeg"
+          "image": "/images/window1.jpg"
         },
         {
           "id": 2,
           "name": "نافذة مزدوجة الزجاج",
           "price": 950,
           "description": "تصميم يمنع الضوضاء ويحافظ على درجة الحرارة الداخلية.",
-          "image": "/images/window2.jpeg"
+          "image": "/images/window2.jpg"
         },
         {
           "id": 3,
           "name": "نافذة منزلقة عصرية",
           "price": 1100,
           "description": "نظام انزلاقي سلس وسهل الاستخدام للمنازل الحديثة.",
-          "image": "/images/window3.jpeg"
+          "image": "/images/window3.jpg"
         },
         {
           "id": 4,
