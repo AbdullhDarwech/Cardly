@@ -158,21 +158,24 @@ const Card = () => {
           transition={{ delay: 1 }}
         >
           {data.images.map((img, index) => (
-            <Link key={index} to={`/category/${encodeURIComponent(img.category)}`}>
-              <motion.div
-                className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition transform hover:scale-105 cursor-pointer"
-                whileHover={{ y: -5 }}
-              >
-                <img
-                  src={img.src}
-                  alt={img.category}
-                  className="object-cover w-full h-36 sm:h-40 md:h-44 lg:h-48"
-                />
-                <div className="p-2 bg-gray-50 text-gray-700 text-sm font-semibold">
-                  {img.category}
-                </div>
-              </motion.div>
-            </Link>
+          <Link
+          key={index}
+          to={`/category/${name}/${encodeURIComponent(img.category)}`}
+        >
+          <motion.div
+            className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition transform hover:scale-105 cursor-pointer"
+            whileHover={{ y: -5 }}
+          >
+            <img
+              src={img.src}
+              alt={img.category}
+              className="object-cover w-full h-36 sm:h-40 md:h-44 lg:h-48"
+            />
+            <div className="p-2 bg-gray-50 text-gray-700 text-sm font-semibold">
+              {img.category}
+            </div>
+          </motion.div>
+        </Link>
           ))}
         </motion.div>
 

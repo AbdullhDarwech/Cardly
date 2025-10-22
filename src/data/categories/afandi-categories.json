@@ -1,0 +1,223 @@
+{
+  "categories": [
+    {
+      "id": "غرفة نوم",
+      "name": "غرفة نوم",
+      "products": [
+        {
+          "id": 1,
+          "name": "سرير خشبي فاخر",
+          "price": 250,
+          "description": "سرير من الخشب الطبيعي بتصميم أنيق ومتين.",
+          "image": "/images/bedroom1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "دولاب ملابس كبير",
+          "price": 320,
+          "description": "دولاب خشبي بستة أبواب، مساحة تخزين واسعة وتصميم عصري.",
+          "image": "/images/bedroom2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "تسريحة مرآة بإضاءة LED",
+          "price": 180,
+          "description": "تسريحة مع مرآة وإضاءة مدمجة تضيف لمسة فخامة لغرفتك.",
+          "image": "/images/bedroom3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "كومودينو جانبي",
+          "price": 60,
+          "description": "طاولة جانبية صغيرة تناسب جميع أنماط غرف النوم.",
+          "image": "/images/bedroom4.jpg"
+        },
+        {
+          "id": 5,
+          "name": "سرير أطفال خشبي",
+          "price": 150,
+          "description": "سرير خشبي آمن للأطفال مع تصميم جذاب ومتين.",
+          "image": "/images/bedroom5.jpg"
+        },
+        {
+          "id": 6,
+          "name": "مكتبة صغيرة",
+          "price": 950,
+          "description": "مكتبة متعددة الأرفف لتخزين الكتب أو الإكسسوارات.",
+          "image": "/images/bedroom6.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "أبواب",
+      "name": "أبواب",
+      "products": [
+        {
+          "id": 1,
+          "name": "باب خشب متين",
+          "price": 90,
+          "description": "باب خشبي مقاوم للماء بتصميم كلاسيكي.",
+          "image": "/images/door1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "باب زجاجي بإطار خشب",
+          "price": 120,
+          "description": "باب زجاجي عصري يضفي لمسة فخامة للمنزل.",
+          "image": "/images/door3.jpg"
+        },
+        {
+          "id": 3,
+          "name": "باب غرفة أبيض حديث",
+          "price": 950,
+          "description": "باب داخلي أبيض بلون محايد يناسب جميع الديكورات.",
+          "image": "/images/door4.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "باب خارجي فاخر",
+          "price": 250,
+          "description": "باب رئيسي ثقيل ومزخرف للحماية والمظهر الفاخر.",
+          "image": "/images/door2.jpg"
+        },
+        {
+          "id": 5,
+          "name": "باب سحب خشبي",
+          "price": 150,
+          "description": "باب انزلاقي مثالي للمساحات الصغيرة والمكاتب.",
+          "image": "/images/door5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "مطابخ",
+      "name": "مطابخ",
+      "products": [
+        {
+          "id": 1,
+          "name": "مطبخ خشب كلاسيكي",
+          "price": 450,
+          "description": "مطبخ خشبي متين بتصميم تقليدي وطلاء مقاوم للماء.",
+          "image": "/images/kitchen1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "مطبخ حديث باللون الرمادي",
+          "price": 620,
+          "description": "تصميم عصري مع لمسات معدنية ومساحة تخزين واسعة.",
+          "image": "/images/kitchen2.jpeg"
+        },
+        {
+          "id": 3,
+          "name": "خزائن مطبخ علوية وسفلية",
+          "price": 390,
+          "description": "خزائن عملية بلمسة خشب طبيعية ومقابض أنيقة.",
+          "image": "/images/kitchen3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "جزيرة مطبخ وسطية",
+          "price": 280,
+          "description": "طاولة وسط المطبخ لتناول الطعام أو التحضير.",
+          "image": "/images/kitchen4.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "مطبخ مفتوح بتصميم حديث",
+          "price": 750,
+          "description": "مطبخ أنيق مفتوح على غرفة المعيشة بتصميم أوروبي.",
+          "image": "/images/kitchen5.jpg"
+        }
+      ]
+    },
+    {
+      "id": "أثاث",
+      "name": "أثاث",
+      "products": [
+        {
+          "id": 1,
+          "name": "كنبة فاخرة بثلاثة مقاعد",
+          "price": 320,
+          "description": "كنبة مريحة بتنجيد عالي الجودة وأرجل خشبية أنيقة.",
+          "image": "/images/furniture5.jpeg"
+        },
+        {
+          "id": 2,
+          "name": "طاولة سفرة خشبية",
+          "price": 270,
+          "description": "طاولة طعام لستة أشخاص مع تشطيب لامع وأرجل قوية.",
+          "image": "/images/furniture4.jpg"
+        },
+        {
+          "id": 3,
+          "name": "كرسي جلوس مريح",
+          "price": 850,
+          "description": "كرسي مريح بجودة عالية يناسب المكاتب وغرف المعيشة.",
+          "image": "/images/furniture3.jpeg"
+        },
+        {
+          "id": 4,
+          "name": "طاولة قهوة مودرن",
+          "price": 950,
+          "description": "طاولة قهوة بتصميم بسيط وعصري تناسب جميع الديكورات.",
+          "image": "/images/furniture2.jpg"
+        },
+        {
+          "id": 5,
+          "name": "طاولة مع كراسي خشبية",
+          "price": 210,
+          "description": "طاولة أنيقة مع كراسي بتصميم هندسي جميل.",
+          "image": "/images/furniture6.jpg"
+        },
+        {
+          "id": 6,
+          "name": "وحدة تلفاز حديثة",
+          "price": 190,
+          "description": "خزانة تلفاز حديثة بألوان متناسقة ومظهر فاخر.",
+          "image": "/images/furniture7.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "نوافذ",
+      "name": "نوافذ",
+      "products": [
+        {
+          "id": 1,
+          "name": "نافذة خشب تقليدية",
+          "price": 70,
+          "description": "نافذة خشبية مقاومة للعوامل الجوية.",
+          "image": "/images/window1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "نافذة مزدوجة الزجاج",
+          "price": 950,
+          "description": "تصميم يمنع الضوضاء ويحافظ على درجة الحرارة الداخلية.",
+          "image": "/images/window2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "نافذة منزلقة عصرية",
+          "price": 110,
+          "description": "نظام انزلاقي سلس وسهل الاستخدام للمنازل الحديثة.",
+          "image": "/images/window3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "نافذة مطبخ صغيرة",
+          "price": 50,
+          "description": "نافذة تهوية للمطابخ بتصميم أنيق ومتين.",
+          "image": "/images/window4.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "إطار نافذة خشبي فخم",
+          "price": 130,
+          "description": "إطار من خشب الزان الطبيعي بتشطيب فاخر.",
+          "image": "/images/window5.jpeg"
+        }
+      ]
+    }
+  ]
+}

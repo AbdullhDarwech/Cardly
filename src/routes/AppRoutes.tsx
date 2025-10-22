@@ -27,14 +27,14 @@ const AppRoutes = () => {
           path="/"
           element={
             <motion.div
-            initial="initial"
-            animate="in"
-            exit="out"
-            variants={pageVariants}
-            transition={pageTransition}
-          >
-            <Home />
-          </motion.div>
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+            >
+              <Home />
+            </motion.div>
           }
         />
         <Route
@@ -65,8 +65,9 @@ const AppRoutes = () => {
             </motion.div>
           }
         />
+        {/* المسار الجديد للفئة */}
         <Route
-          path="/category/:id"
+          path="/category/:cardName/:categoryId"
           element={
             <motion.div
               initial="initial"
@@ -85,3 +86,4 @@ const AppRoutes = () => {
 };
 
 export default AppRoutes;
+

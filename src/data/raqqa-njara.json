@@ -1,0 +1,62 @@
+{
+    "id": "raqqa-njara",
+    "name": "الرقة للنجارة",
+    "owner": "محمد حمود",
+    "job": "نجار أثاث وموبليات",
+    "phone": "+963 997 988 753",
+    "email": "mohmedhmoud@gmail.com",
+    "description": "نصمم وننفذ أجمل قطع الأثاث والموبليات بجودة عالية وخبرة تزيد عن 50 عامًا في المجال.",
+    "address": "الرقة، باب بغداد",
+    "socials": {
+      "facebook": "https://www.facebook.com/share/1A7YRXtk1r/",
+      "instagram": "https://www.instagram.com/hasanafandi19?igsh=MWxremdpMHQwZWIwOA==",
+      "Twitter": "https://Twitter.com/"
+    },
+    "images": [
+      {
+        "src": "/images/ports.jpeg",
+        "category": "غرفة نوم"
+      },
+      {
+        "src": "/images/chek.jpeg",
+        "category": "مطابخ"
+      },
+      {
+        "src": "/images/Porta.jpeg",
+        "category": "أبواب"
+      },
+      {
+        "src": "/images/Ventanas.jpeg",
+        "category": "نوافذ"
+      },
+    
+      {
+        "src": "/images/ports2.jpeg",
+        "category": "أثاث"
+      }
+    ],
+    "location": {
+    "mapUrl": "https://maps.app.goo.gl/soXj7k5UbTETj8vx8"
+  
+  },
+  "services": [
+    "تصميم الأثاث حسب الطلب",
+    "نجارة أبواب ونوافذ",
+    "تركيب مطابخ",
+    "صيانة الأثاث"
+  ],
+  "offers": [
+    {
+      "title": "خصم 10% على المطابخ",
+      "validUntil": "2025-12-31"
+    }
+  ],
+  "features": [
+    "خدمة التوصيل والتركيب",
+    "ضمان جودة الأثاث",
+    "استشارات تصميم مجانية"
+  ]
+  
+  
+  }
+  

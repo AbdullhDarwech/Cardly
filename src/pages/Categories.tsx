@@ -1,47 +1,58 @@
+import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+
+interface Product {
+  id: number;
+  name: string;
+  price: number;
+  description: string;
+  image: string;
+}
 
 interface Category {
   id: string;
   name: string;
-  images: string[];
+  products: Product[];
 }
 
-const Categories = () => {
-  const [categories, setCategories] = useState<Category[]>([]);
+const CategoryDetails = () => {
+  const { cardName, categoryId } = useParams<{ cardName: string; categoryId: string }>();
+  const [category, setCategory] = useState<Category | null>(null);
 
   useEffect(() => {
-    import("../data/categories.json").then((module) =>
-      setCategories(module.default.categories)
-    );
-  }, []);
+    if (!cardName || !categoryId) return;
+
+    import(`../data/categories/${cardName}-categories.json`)
+      .then((module) => {
+        const found = module.default.categories.find((c: Category) => c.id === categoryId);
+        setCategory(found);
+      })
+      .catch(() => setCategory(null));
+  }, [cardName, categoryId]);
+
+  if (!category) return <p className="text-center p-8 text-gray-500">جاري تحميل الفئة...</p>;
 
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
-        🪵 معمل الأفندي — فئات المنتجات
-      </h1>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {categories.map((cat) => (
-          <Link
-            key={cat.id}
-            to={`/category/${encodeURIComponent(cat.id)}`}
-            className="block bg-white shadow hover:shadow-lg transition transform hover:-translate-y-1 rounded-xl overflow-hidden"
+    <div className="max-w-6xl mx-auto p-8">
+      <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">{category.name}</h1>
+      <div className="grid md:grid-cols-3 gap-6">
+        {category.products.map((product) => (
+          <div
+            key={product.id}
+            className="bg-white shadow-md hover:shadow-xl transition rounded-xl overflow-hidden"
           >
-            <img
-              src={cat.images[0]}
-              alt={cat.name}
-              className="w-full h-56 object-cover"
-            />
-            <div className="p-4 text-center">
-              <h2 className="text-xl font-bold text-gray-700">{cat.name}</h2>
+            <img src={product.image} alt={product.name} className="w-full h-56 object-cover" />
+            <div className="p-4">
+              <h2 className="font-bold text-xl text-gray-800">{product.name}</h2>
+              <p className="text-gray-600 mt-2">{product.description}</p>
+              <p className="text-blue-600 font-semibold mt-3">{product.price} ل.س</p>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>
   );
 };
 
-export default Categories;
+export default CategoryDetails;
+

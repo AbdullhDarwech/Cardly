@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -28,10 +28,42 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-bold mb-4">تابعنا</h2>
           <div className="flex space-x-4 text-xl">
-            <a href="#" className="hover:text-blue-600 transition"><FaFacebook /></a>
-            <a href="#" className="hover:text-blue-400 transition"><FaTwitter /></a>
-            <a href="#" className="hover:text-blue-700 transition"><FaLinkedin /></a>
-            <a href="#" className="hover:text-pink-500 transition"><FaInstagram /></a>
+          <div className="flex items-center gap-4 text-2xl">
+  <a
+    href="https://www.facebook.com/share/17HzatYYby/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-blue-600 transition"
+  >
+    <FaFacebook />
+  </a>
+
+  <a
+    href="mailto:darwechabdullh@gmail.com"
+    className="hover:text-blue-400 transition"
+  >
+    <FaEnvelope />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/abdullh-darwech-855bab267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-blue-700 transition"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="https://www.instagram.com/cardly2026?igsh=MTNseXZ5N293OG5rMw=="
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-pink-500 transition"
+  >
+    <FaInstagram />
+  </a>
+</div>
+
           </div>
         </div>
 
