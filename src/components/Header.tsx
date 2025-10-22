@@ -5,8 +5,9 @@ import {
   FaLinkedin,
   FaInstagram,
   FaEnvelope,
+  FaWhatsapp,
 } from "react-icons/fa";
-
+const whatsappNumber = "963930904315";
 const Header = () => {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -35,6 +36,15 @@ const Header = () => {
 
         {/* أيقونات شبكات اجتماعية */}
         <div className="flex space-x-3">
+           <a
+                            href={`https://wa.me/${whatsappNumber}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-green-500 hover:scale-110 transition-transform"
+                            title="تواصل واتساب"
+                          >
+                            <FaWhatsapp />
+                          </a>
           <a
             href="mailto:darwechabdullh@gmail.com"
             className="hover:text-blue-400 transition"

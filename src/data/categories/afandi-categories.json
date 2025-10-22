@@ -101,13 +101,6 @@
           "image": "/images/kitchen1.jpg"
         },
         {
-          "id": 2,
-          "name": "مطبخ حديث باللون الرمادي",
-          "price": 620,
-          "description": "تصميم عصري مع لمسات معدنية ومساحة تخزين واسعة.",
-          "image": "/images/kitchen2.jpeg"
-        },
-        {
           "id": 3,
           "name": "خزائن مطبخ علوية وسفلية",
           "price": 390,
@@ -115,14 +108,21 @@
           "image": "/images/kitchen3.jpg"
         },
         {
-          "id": 4,
+          "id": 5,
           "name": "جزيرة مطبخ وسطية",
           "price": 280,
           "description": "طاولة وسط المطبخ لتناول الطعام أو التحضير.",
           "image": "/images/kitchen4.jpeg"
         },
         {
-          "id": 5,
+          "id": 4,
+          "name": "مطبخ حديث باللون الرمادي",
+          "price": 620,
+          "description": "تصميم عصري مع لمسات معدنية ومساحة تخزين واسعة.",
+          "image": "/images/kitchen2.jpeg"
+        },
+        {
+          "id": 2,
           "name": "مطبخ مفتوح بتصميم حديث",
           "price": 750,
           "description": "مطبخ أنيق مفتوح على غرفة المعيشة بتصميم أوروبي.",

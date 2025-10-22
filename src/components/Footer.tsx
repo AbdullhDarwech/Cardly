@@ -1,5 +1,5 @@
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
-
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope, FaWhatsapp } from "react-icons/fa";
+const whatsappNumber = "963930904315";
 const Footer = () => {
   return (
     <footer className="bg-gray-100 text-gray-700 mt-10">
@@ -29,6 +29,15 @@ const Footer = () => {
           <h2 className="text-lg font-bold mb-4">تابعنا</h2>
           <div className="flex space-x-4 text-xl">
           <div className="flex items-center gap-4 text-2xl">
+                 <a
+                                        href={`https://wa.me/${whatsappNumber}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-green-500 hover:scale-110 transition-transform"
+                                        title="تواصل واتساب"
+                                      >
+                                        <FaWhatsapp />
+                                      </a>
   <a
     href="https://www.facebook.com/share/17HzatYYby/"
     target="_blank"
