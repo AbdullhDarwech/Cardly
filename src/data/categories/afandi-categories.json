@@ -139,7 +139,7 @@
           "name": "كنبة فاخرة بثلاثة مقاعد",
           "price": 320,
           "description": "كنبة مريحة بتنجيد عالي الجودة وأرجل خشبية أنيقة.",
-          "image": "/images/furniture5.jpeg"
+          "image": "/images/furniture5.jpg"
         },
         {
           "id": 2,
@@ -151,14 +151,14 @@
         {
           "id": 3,
           "name": "كرسي جلوس مريح",
-          "price": 850,
+          "price": 20,
           "description": "كرسي مريح بجودة عالية يناسب المكاتب وغرف المعيشة.",
           "image": "/images/furniture3.jpeg"
         },
         {
           "id": 4,
           "name": "طاولة قهوة مودرن",
-          "price": 950,
+          "price": 80,
           "description": "طاولة قهوة بتصميم بسيط وعصري تناسب جميع الديكورات.",
           "image": "/images/furniture2.jpg"
         },
