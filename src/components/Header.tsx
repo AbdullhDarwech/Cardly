@@ -46,7 +46,7 @@ const Header = () => {
                             <FaWhatsapp />
                           </a>
           <a
-            href="mailto:darwechabdullh@gmail.com"
+            href="mailto:cardly2026@gmail.com"
             className="hover:text-blue-400 transition"
           >
             <FaEnvelope />
@@ -57,7 +57,7 @@ const Header = () => {
           >
             <FaInstagram />
           </a>
-          <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+          <a href="https://www.facebook.com/abdullah.darwech.7" className="text-gray-600 hover:text-blue-600 transition">
             <FaFacebook />
           </a>
         </div>

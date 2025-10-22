@@ -39,7 +39,7 @@ const Footer = () => {
                                         <FaWhatsapp />
                                       </a>
   <a
-    href="https://www.facebook.com/share/17HzatYYby/"
+    href="https://www.facebook.com/abdullah.darwech.7"
     target="_blank"
     rel="noopener noreferrer"
     className="hover:text-blue-600 transition"
@@ -48,7 +48,7 @@ const Footer = () => {
   </a>
 
   <a
-    href="mailto:darwechabdullh@gmail.com"
+    href="mailto:cardly2026@gmail.com"
     className="hover:text-blue-400 transition"
   >
     <FaEnvelope />

@@ -162,7 +162,7 @@ const Home = () => {
                   <FaFacebook />
                 </a>
                 <a
-                  href="mailto:darwechabdullh@gmail.com"
+                  href="mailto:	cardly2026@gmail.com"
                   className="text-gray-700 hover:scale-110 transition-transform"
                   title="Email"
                 >
