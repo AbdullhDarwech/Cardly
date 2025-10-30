@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "homepage": "https://abdullhdarwech.github.io/Cardly",
+  "homepage": "https://abdullhdarwech.github.io/Cardly/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
