@@ -1,13 +1,13 @@
-import { useParams } from "react-router-dom";
+import { useParams , useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
+// import { useNavigate } from "react-router-dom";
 interface Product {
   id: number;
   name: string;
   price: number;
   description: string;
-  image: string;
+  images: string[];
 }
 
 interface Category {
@@ -15,8 +15,8 @@ interface Category {
   name: string;
   products: Product[];
 }
-
 const CategoryDetails = () => {
+  const navigate = useNavigate()
   const { cardName, categoryId } = useParams<{ cardName: string; categoryId: string }>();
   const [category, setCategory] = useState<Category | null>(null);
   const [showModal, setShowModal] = useState(false); // 👈 للتحكم في الواجهة المنبثقة
@@ -69,7 +69,7 @@ const CategoryDetails = () => {
             >
               <div className="relative overflow-hidden">
                 <img
-                  src={product.image}
+                  src={product.images[0]}
                   alt={product.name}
                   className="w-full h-72 sm:h-72 md:h-80 object-cover transition-transform duration-700 group-hover:scale-110"
                 />
@@ -91,11 +91,13 @@ const CategoryDetails = () => {
                     {product.price} دولار
                   </span>
                   <button
-                    onClick={() => setShowModal(true)} // 👈 عند الضغط نفتح النافذة
-                    className="px-4 py-2 sm:px-5 sm:py-3 bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-lg font-semibold hover:scale-105 transition-transform"
-                  >
-                    شراء الآن
-                  </button>
+  onClick={() =>
+    navigate(`/category/${cardName}/${categoryId}/product/${product.id}`)
+  }
+  className="px-4 py-2 sm:px-5 sm:py-3 bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-lg font-semibold hover:scale-105 transition-transform"
+>
+  عرض التفاصيل
+</button>
                 </div>
               </div>
             </motion.div>

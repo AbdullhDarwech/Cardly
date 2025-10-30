@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Card from "../pages/Card";
 import Categories from "../pages/Categories";
 import CategoryDetails from "../pages/CategoryDetails";
+import ProductDetails from "../pages/ProductDetails"; // ✅ أضفنا صفحة التفاصيل
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -23,6 +24,7 @@ const AppRoutes = () => {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
+        {/* 🏠 الصفحة الرئيسية */}
         <Route
           path="/"
           element={
@@ -37,6 +39,8 @@ const AppRoutes = () => {
             </motion.div>
           }
         />
+
+        {/* 📇 صفحة البطاقات */}
         <Route
           path="/card/:name"
           element={
@@ -51,6 +55,8 @@ const AppRoutes = () => {
             </motion.div>
           }
         />
+
+        {/* 🗂️ صفحة الفئات */}
         <Route
           path="/categories"
           element={
@@ -65,7 +71,8 @@ const AppRoutes = () => {
             </motion.div>
           }
         />
-        {/* المسار الجديد للفئة */}
+
+        {/* 📦 تفاصيل الفئة */}
         <Route
           path="/category/:cardName/:categoryId"
           element={
@@ -80,10 +87,25 @@ const AppRoutes = () => {
             </motion.div>
           }
         />
+
+        {/* 🛍️ تفاصيل المنتج */}
+        <Route
+          path="/category/:cardName/:categoryId/product/:productId"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+            >
+              <ProductDetails />
+            </motion.div>
+          }
+        />
       </Routes>
     </AnimatePresence>
   );
 };
 
 export default AppRoutes;
-

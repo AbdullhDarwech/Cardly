@@ -9,42 +9,84 @@
           "name": "سرير خشبي فاخر",
           "price": 250,
           "description": "سرير من الخشب الطبيعي بتصميم أنيق ومتين.",
-          "image": "/images/bedroom1.jpg"
+          "woodType": "خشب الزان",
+          "dimensions": "200×180×40 سم",
+          "color": "بني داكن",
+          "weight": "45 كغ",
+          "country": "سوريا",
+          "rating": 4.8,
+          "inStock": true,
+          "images": ["/images/bedroom1.jpg","/images/bedroom1_1.jpg","/images/bedroom1_2.jpg"]
         },
         {
           "id": 2,
           "name": "دولاب ملابس كبير",
           "price": 320,
           "description": "دولاب خشبي بستة أبواب، مساحة تخزين واسعة وتصميم عصري.",
-          "image": "/images/bedroom2.jpg"
+          "woodType": "خشب MDF",
+          "dimensions": "240×60×220 سم",
+          "color": "بيج مع بني",
+          "weight": "80 كغ",
+          "country": "تركيا",
+          "rating": 4.6,
+          "inStock": true,
+          "images": ["/images/bedroom2.jpg","/images/bedroom2_1.jpg"]
         },
         {
           "id": 3,
           "name": "تسريحة مرآة بإضاءة LED",
           "price": 180,
           "description": "تسريحة مع مرآة وإضاءة مدمجة تضيف لمسة فخامة لغرفتك.",
-          "image": "/images/bedroom3.jpg"
+          "woodType": "خشب الصنوبر",
+          "dimensions": "120×45×160 سم",
+          "color": "أبيض لؤلؤي",
+          "weight": "35 كغ",
+          "country": "سوريا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/bedroom3.jpg","/images/bedroom3_1.jpg"]
         },
         {
           "id": 4,
           "name": "كومودينو جانبي",
           "price": 60,
           "description": "طاولة جانبية صغيرة تناسب جميع أنماط غرف النوم.",
-          "image": "/images/bedroom4.jpg"
+          "woodType": "خشب البلوط",
+          "dimensions": "45×40×50 سم",
+          "color": "بني فاتح",
+          "weight": "12 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/bedroom4.jpg"]
         },
         {
           "id": 5,
           "name": "سرير أطفال خشبي",
           "price": 150,
           "description": "سرير خشبي آمن للأطفال مع تصميم جذاب ومتين.",
-          "image": "/images/bedroom5.jpg"
+          "woodType": "خشب الصنوبر",
+          "dimensions": "160×80×40 سم",
+          "color": "أبيض",
+          "weight": "25 كغ",
+          "country": "سوريا",
+          "rating": 4.6,
+          "inStock": true,
+          "images": ["/images/bedroom5.jpg"]
         },
         {
           "id": 6,
           "name": "مكتبة صغيرة",
           "price": 950,
           "description": "مكتبة متعددة الأرفف لتخزين الكتب أو الإكسسوارات.",
-          "image": "/images/bedroom6.jpeg"
+          "woodType": "خشب الزان",
+          "dimensions": "100×35×180 سم",
+          "color": "بني داكن",
+          "weight": "50 كغ",
+          "country": "تركيا",
+          "rating": 4.9,
+          "inStock": true,
+          "images": ["/images/bedroom6.jpeg","/images/bedroom6_1.jpeg"]
         }
       ]
     },
@@ -57,35 +99,126 @@
           "name": "باب خشب متين",
           "price": 90,
           "description": "باب خشبي مقاوم للماء بتصميم كلاسيكي.",
-          "image": "/images/door1.jpg"
+          "woodType": "خشب الصنوبر",
+          "dimensions": "210×90×5 سم",
+          "color": "بني غامق",
+          "weight": "25 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/door1.jpg" , "/images/door11.jpg" , "/images/door111.jpg"]
         },
         {
           "id": 2,
           "name": "باب زجاجي بإطار خشب",
           "price": 120,
           "description": "باب زجاجي عصري يضفي لمسة فخامة للمنزل.",
-          "image": "/images/door3.jpg"
+          "woodType": "خشب الزان",
+          "dimensions": "210×100×4 سم",
+          "color": "بني فاتح مع زجاج شفاف",
+          "weight": "30 كغ",
+          "country": "تركيا",
+          "rating": 4.6,
+          "inStock": true,
+          "images": ["/images/door3.jpg","/images/door3_1.jpg"]
         },
         {
           "id": 3,
           "name": "باب غرفة أبيض حديث",
           "price": 950,
           "description": "باب داخلي أبيض بلون محايد يناسب جميع الديكورات.",
-          "image": "/images/door4.jpeg"
+          "woodType": "MDF",
+          "dimensions": "200×80×4 سم",
+          "color": "أبيض",
+          "weight": "22 كغ",
+          "country": "سوريا",
+          "rating": 4.8,
+          "inStock": true,
+          "images": ["/images/door4.jpeg"]
         },
         {
           "id": 4,
           "name": "باب خارجي فاخر",
           "price": 250,
           "description": "باب رئيسي ثقيل ومزخرف للحماية والمظهر الفاخر.",
-          "image": "/images/door2.jpg"
+          "woodType": "خشب الزان",
+          "dimensions": "220×100×6 سم",
+          "color": "بني غامق",
+          "weight": "55 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/door2.jpg" ,"/images/door22.jpg"]
         },
         {
           "id": 5,
           "name": "باب سحب خشبي",
           "price": 150,
           "description": "باب انزلاقي مثالي للمساحات الصغيرة والمكاتب.",
-          "image": "/images/door5.jpg"
+          "woodType": "خشب الصنوبر",
+          "dimensions": "210×90×4 سم",
+          "color": "بني فاتح",
+          "weight": "28 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/door5.jpg"]
+        },
+        {
+          "id": 6,
+          "name": "باب سحب خشبي",
+          "price": 150,
+          "description": "باب انزلاقي مثالي للمساحات الصغيرة والمكاتب.",
+          "woodType": "خشب الصنوبر",
+          "dimensions": "210×90×4 سم",
+          "color": "بني فاتح",
+          "weight": "28 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/door6.jpg", "/images/door66.jpg" , "/images/door666.jpg", "/images/dor6666.jpg"]
+        },
+        {
+          "id": 7,
+          "name": "باب سحب خشبي",
+          "price": 150,
+          "description": "باب انزلاقي مثالي للمساحات الصغيرة والمكاتب.",
+          "woodType": "خشب الصنوبر",
+          "dimensions": "210×90×4 سم",
+          "color": "بني فاتح",
+          "weight": "28 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/door7.jpg"]
+        },
+        {
+          "id": 8,
+          "name": "باب ثلاثة فرد",
+          "price": 150,
+          "description": "باب انزلاقي مثالي للمساحات الصغيرة والمكاتب.",
+          "woodType": "خشب الصنوبر",
+          "dimensions": "210×90×4 سم",
+          "color": "بني فاتح",
+          "weight": "28 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/door8.jpg"]
+        },
+        {
+          "id": 9,
+          "name": "باب ثلاثة فرد",
+          "price": 150,
+          "description": "باب انزلاقي مثالي للمساحات الصغيرة والمكاتب.",
+          "woodType": "خشب الصنوبر",
+          "dimensions": "210×90×4 سم",
+          "color": "بني فاتح",
+          "weight": "28 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/door9.jpg"]
         }
       ]
     },
@@ -98,35 +231,70 @@
           "name": "مطبخ خشب كلاسيكي",
           "price": 450,
           "description": "مطبخ خشبي متين بتصميم تقليدي وطلاء مقاوم للماء.",
-          "image": "/images/kitchen1.jpg"
-        },
-        {
-          "id": 3,
-          "name": "خزائن مطبخ علوية وسفلية",
-          "price": 390,
-          "description": "خزائن عملية بلمسة خشب طبيعية ومقابض أنيقة.",
-          "image": "/images/kitchen3.jpg"
-        },
-        {
-          "id": 5,
-          "name": "جزيرة مطبخ وسطية",
-          "price": 280,
-          "description": "طاولة وسط المطبخ لتناول الطعام أو التحضير.",
-          "image": "/images/kitchen4.jpeg"
-        },
-        {
-          "id": 4,
-          "name": "مطبخ حديث باللون الرمادي",
-          "price": 620,
-          "description": "تصميم عصري مع لمسات معدنية ومساحة تخزين واسعة.",
-          "image": "/images/kitchen2.jpeg"
+          "woodType": "خشب الزان",
+          "dimensions": "300×60×90 سم",
+          "color": "بني داكن",
+          "weight": "120 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/kitchen1.jpg","/images/kitchen1_1.jpg"]
         },
         {
           "id": 2,
           "name": "مطبخ مفتوح بتصميم حديث",
           "price": 750,
           "description": "مطبخ أنيق مفتوح على غرفة المعيشة بتصميم أوروبي.",
-          "image": "/images/kitchen5.jpg"
+          "woodType": "خشب MDF",
+          "dimensions": "320×70×95 سم",
+          "color": "رمادي فاتح",
+          "weight": "130 كغ",
+          "country": "ألمانيا",
+          "rating": 4.8,
+          "inStock": true,
+          "images": ["/images/kitchen5.jpg"]
+        },
+        {
+          "id": 3,
+          "name": "خزائن مطبخ علوية وسفلية",
+          "price": 390,
+          "description": "خزائن عملية بلمسة خشب طبيعية ومقابض أنيقة.",
+          "woodType": "خشب الزان",
+          "dimensions": "300×60×80 سم",
+          "color": "بني فاتح",
+          "weight": "90 كغ",
+          "country": "تركيا",
+          "rating": 4.6,
+          "inStock": true,
+          "images": ["/images/kitchen3.jpg"]
+        },
+        {
+          "id": 4,
+          "name": "مطبخ حديث باللون الرمادي",
+          "price": 620,
+          "description": "تصميم عصري مع لمسات معدنية ومساحة تخزين واسعة.",
+          "woodType": "خشب MDF",
+          "dimensions": "310×70×90 سم",
+          "color": "رمادي",
+          "weight": "110 كغ",
+          "country": "ألمانيا",
+          "rating": 4.8,
+          "inStock": true,
+          "images": ["/images/kitchen2.jpeg"]
+        },
+        {
+          "id": 5,
+          "name": "جزيرة مطبخ وسطية",
+          "price": 280,
+          "description": "طاولة وسط المطبخ لتناول الطعام أو التحضير.",
+          "woodType": "خشب الزان",
+          "dimensions": "150×80×90 سم",
+          "color": "بني داكن",
+          "weight": "50 كغ",
+          "country": "تركيا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/kitchen4.jpeg"]
         }
       ]
     },
@@ -139,42 +307,84 @@
           "name": "كنبة فاخرة بثلاثة مقاعد",
           "price": 320,
           "description": "كنبة مريحة بتنجيد عالي الجودة وأرجل خشبية أنيقة.",
-          "image": "/images/furniture5.jpg"
+          "woodType": "خشب الزان",
+          "dimensions": "200×90×85 سم",
+          "color": "رمادي",
+          "weight": "60 كغ",
+          "country": "سوريا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/furniture5.jpg","/images/furniture5_1.jpg"]
         },
         {
           "id": 2,
           "name": "طاولة سفرة خشبية",
           "price": 270,
           "description": "طاولة طعام لستة أشخاص مع تشطيب لامع وأرجل قوية.",
-          "image": "/images/furniture4.jpg"
+          "woodType": "خشب الصنوبر",
+          "dimensions": "180×90×75 سم",
+          "color": "بني فاتح",
+          "weight": "40 كغ",
+          "country": "تركيا",
+          "rating": 4.6,
+          "inStock": true,
+          "images": ["/images/furniture4.jpg"]
         },
         {
           "id": 3,
           "name": "كرسي جلوس مريح",
           "price": 20,
           "description": "كرسي مريح بجودة عالية يناسب المكاتب وغرف المعيشة.",
-          "image": "/images/furniture3.jpeg"
+          "woodType": "خشب البلوط",
+          "dimensions": "45×45×90 سم",
+          "color": "بني",
+          "weight": "8 كغ",
+          "country": "سوريا",
+          "rating": 4.4,
+          "inStock": true,
+          "images": ["/images/furniture3.jpeg"]
         },
         {
           "id": 4,
           "name": "طاولة قهوة مودرن",
           "price": 80,
           "description": "طاولة قهوة بتصميم بسيط وعصري تناسب جميع الديكورات.",
-          "image": "/images/furniture2.jpg"
+          "woodType": "خشب MDF",
+          "dimensions": "120×60×45 سم",
+          "color": "أسود",
+          "weight": "15 كغ",
+          "country": "سوريا",
+          "rating": 4.5,
+          "inStock": true,
+          "images": ["/images/furniture2.jpg"]
         },
         {
           "id": 5,
           "name": "طاولة مع كراسي خشبية",
           "price": 210,
           "description": "طاولة أنيقة مع كراسي بتصميم هندسي جميل.",
-          "image": "/images/furniture6.jpg"
+          "woodType": "خشب الزان",
+          "dimensions": "160×80×75 سم",
+          "color": "بني داكن",
+          "weight": "50 كغ",
+          "country": "تركيا",
+          "rating": 4.6,
+          "inStock": true,
+          "images": ["/images/furniture6.jpg"]
         },
         {
           "id": 6,
           "name": "وحدة تلفاز حديثة",
           "price": 190,
           "description": "خزانة تلفاز حديثة بألوان متناسقة ومظهر فاخر.",
-          "image": "/images/furniture7.jpeg"
+          "woodType": "خشب MDF",
+          "dimensions": "180×45×60 سم",
+          "color": "أبيض وأسود",
+          "weight": "40 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/furniture7.jpeg"]
         }
       ]
     },
@@ -187,35 +397,144 @@
           "name": "نافذة خشب تقليدية",
           "price": 70,
           "description": "نافذة خشبية مقاومة للعوامل الجوية.",
-          "image": "/images/window1.jpg"
+          "woodType": "خشب الصنوبر",
+          "dimensions": "120×90 سم",
+          "color": "بني",
+          "weight": "15 كغ",
+          "country": "سوريا",
+          "rating": 4.4,
+          "inStock": true,
+          "images": ["/images/window1.jpg" , "/images/window11.jpg" , "/images/window111.jpg" , "/images/window11111.jpg" , "/images/window11111111.jpg"],
+          "video" : ""
+          
         },
         {
           "id": 2,
           "name": "نافذة مزدوجة الزجاج",
           "price": 950,
           "description": "تصميم يمنع الضوضاء ويحافظ على درجة الحرارة الداخلية.",
-          "image": "/images/window2.jpg"
+          "woodType": "خشب الزان",
+          "dimensions": "150×120 سم",
+          "color": "أبيض",
+          "weight": "25 كغ",
+          "country": "تركيا",
+          "rating": 4.8,
+          "inStock": true,
+          "images": ["/images/window2.jpg" ,"/images/window22.jpg"]
         },
         {
           "id": 3,
           "name": "نافذة منزلقة عصرية",
           "price": 110,
           "description": "نظام انزلاقي سلس وسهل الاستخدام للمنازل الحديثة.",
-          "image": "/images/window3.jpg"
+          "woodType": "ألمنيوم مع خشب",
+          "dimensions": "140×100 سم",
+          "color": "رمادي",
+          "weight": "20 كغ",
+          "country": "ألمانيا",
+          "rating": 4.6,
+          "inStock": true,
+          "images": ["/images/window3.jpg" , "/images/window333.jpg"]
+
+
         },
         {
           "id": 4,
           "name": "نافذة مطبخ صغيرة",
           "price": 50,
           "description": "نافذة تهوية للمطابخ بتصميم أنيق ومتين.",
-          "image": "/images/window4.jpeg"
+          "woodType": "خشب الصنوبر",
+          "dimensions": "80×60 سم",
+          "color": "بني فاتح",
+          "weight": "8 كغ",
+          "country": "سوريا",
+          "rating": 4.4,
+          "inStock": true,
+          "images": ["/images/window4.jpeg"]
         },
         {
           "id": 5,
           "name": "إطار نافذة خشبي فخم",
           "price": 130,
           "description": "إطار من خشب الزان الطبيعي بتشطيب فاخر.",
-          "image": "/images/window5.jpeg"
+          "woodType": "خشب الزان",
+          "dimensions": "100×80 سم",
+          "color": "بني داكن",
+          "weight": "18 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/window5.jpeg"]
+        },
+        {
+          "id": 6,
+          "name": "نافذة خشب عصرية",
+          "price": 130,
+          "description": " إطار من خشب الزان الطبيعي بتشطيب فاخر و أطار زجاجي داخلي.",
+          "woodType": "خشب الزان",
+          "dimensions": "100×80 سم",
+          "color": "بني داكن",
+          "weight": "18 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/window6.jpg"]
+        },
+        {
+          "id": 7,
+          "name": "نافذة خشب عصرية",
+          "price": 130,
+          "description": " إطار من خشب الزان الطبيعي بتشطيب فاخر و أطار زجاجي داخلي.",
+          "woodType": "خشب الزان",
+          "dimensions": "100×80 سم",
+          "color": "بني داكن",
+          "weight": "18 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/window7.jpg"]
+        },
+        {
+          "id": 8,
+          "name": "نافذة خشب عصرية",
+          "price": 130,
+          "description": " إطار من خشب الزان الطبيعي بتشطيب فاخر و أطار زجاجي داخلي.",
+          "woodType": "خشب الزان",
+          "dimensions": "100×80 سم",
+          "color": "بني داكن",
+          "weight": "18 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/window8.jpg"]
+        },
+        {
+          "id": 9,
+          "name": "نافذة خشب عصرية",
+          "price": 130,
+          "description": " إطار من خشب الزان الطبيعي بتشطيب فاخر و أطار زجاجي داخلي.",
+          "woodType": "خشب الزان",
+          "dimensions": "100×80 سم",
+          "color": "بني داكن",
+          "weight": "18 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/window9.jpg"]
+        },
+        {
+          "id": 10,
+          "name": "نافذة خشب عصرية",
+          "price": 130,
+          "description": " إطار من خشب الزان الطبيعي بتشطيب فاخر و أطار زجاجي داخلي.",
+          "woodType": "خشب الزان",
+          "dimensions": "100×80 سم",
+          "color": "بني داكن",
+          "weight": "18 كغ",
+          "country": "تركيا",
+          "rating": 4.7,
+          "inStock": true,
+          "images": ["/images/window10.jpg" , "/images/window1010.jpg"]
         }
       ]
     }
